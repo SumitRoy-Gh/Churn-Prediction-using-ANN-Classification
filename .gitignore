@@ -32,9 +32,7 @@ ENV/
 # TensorFlow / Deep Learning
 log/
 logs/
-*.h5
-*.keras
-*.pkl
+# Models are now allowed for deployment
 
 # Streamlit
 .streamlit/
