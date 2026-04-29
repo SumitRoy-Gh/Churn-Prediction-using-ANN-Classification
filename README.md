@@ -24,10 +24,12 @@ ChurnGuard AI is a high-performance **Artificial Neural Network (ANN)** project 
    - Dropped irrelevant features (RowNumber, CustomerId, Surname).
    - Multi-step encoding: Label Encoding for Gender and One-Hot Encoding for Geography.
    - Standardized features using `StandardScaler` to optimize Neural Network performance.
+     
 2. **Model Architecture**:
    - **Input Layer**: Matches the feature dimensions (12 inputs).
    - **Hidden Layers**: Two Dense layers (64 and 32 neurons) with ReLU activation.
    - **Output Layer**: Single neuron with Sigmoid activation for binary classification.
+     
 3. **Training & Callbacks**:
    - Optimized with **Adam** (learning_rate=0.01).
    - Loss function: **Binary Crossentropy**.
